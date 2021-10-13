@@ -22,7 +22,8 @@
         <div class="card-body">
             <h5 class="card-title">Lokasi File</h5>
             <p class="card-text">
-                imaniprima/JAWABAN_NO_1.txt
+                imaniprima/JAWABAN_NO_1.txt</br>
+                tabel database : imani_prima.sql
             </p>
         </div>
     </div>
