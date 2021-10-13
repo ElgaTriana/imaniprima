@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PekerjaanController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('soal1');
 });
+
+Route::get('soal1', [PekerjaanController::class, 'soalno1']);
+
+Route::resource('soal2', PekerjaanController::class);
